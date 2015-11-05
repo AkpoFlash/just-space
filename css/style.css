@@ -1,11 +1,11 @@
 body{
-	margin: 0;
 	background: #fff;
-	width: 100%;
-	font-size: 1.4em;
 	color: #000;
-	margin-top: 90px;
 	font-family: 'Leto';
+	font-size: 1.4em;
+	margin-top: 90px;
+	margin: 0;
+	width: 100%;
 }
 
 @font-face{
@@ -28,12 +28,12 @@ a:hover{
 
 nav{
 	background: #36597d;
+	border-bottom: 1px solid #304f6e;
 	height: 90px;
 	position: fixed;
-	z-index: 10;
-	width: 100%;
 	top:0;
-	border-bottom: 1px solid #304f6e;
+	width: 100%;
+	z-index: 10;
 }
 
 nav a{
@@ -44,8 +44,8 @@ nav a{
 
 .menu{
 	list-style: none;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	text-align: right;
 }
 
@@ -56,29 +56,32 @@ nav a{
 }
 
 .menu > li a{
-	padding: 5px 10px;
 	border: 2px solid #36597d;
+	padding: 5px 10px;
 }
 
 .menu > li:hover a{
-	border: 2px solid #E0E0E0;
 	border-radius: 3px;
-	transition: border 0.4s ease-out;
+	border: 2px solid #E0E0E0;
 	text-decoration: none;
+	transition: border 0.4s ease-out;
+	-webkit-transition: border 0.4s ease-out;
+    -moz-transition: border 0.4s ease-out;
+    -o-transition: border 0.4s ease-out;
 }
 
 .menu > li:last-child a{
 	background: #E40808;
-	color: #fff;
-	border: none;
 	border-radius: 3px;	
+	border: none;
+	color: #fff;
 }
 
 .logo{
-	width:60px;
+	left: 15px;
 	position: absolute;
 	top: 15px;
-	left: 15px;
+	width:60px;
 }
 
 .main-foto{
@@ -87,22 +90,22 @@ nav a{
 }
 
 .main-foto img{
-	width: 100%;
 	height: 100%;
+	width: 100%;
 }
 
 .marker{
 	background: #4fa4b3;
 	margin: 0;
-	text-align: center;
 	padding: 50px 0;
+	text-align: center;
 }
 
 .marker span{
+	display: block;
 	font-size: 1.2em;
 	font-weight: bold;
 	margin-bottom: 10px;
-	display: block;
 }
 
 .marker .col{
@@ -110,13 +113,13 @@ nav a{
 }
 
 .article{
-	text-align: center;
 	padding: 50px 0;
+	text-align: center;
 }
 
 .portfolio-list{
-	margin: 0 auto;
 	border-spacing: 100px 10px;
+	margin: 0 auto;
 }
 
 .portfolio-list td{
@@ -138,14 +141,14 @@ nav a{
 }
 
 .contact table img{
-	width: 80px;
 	height: 80px;
+	width: 80px;
 }
 
 .services-list{
-	width: 70%;
 	border-spacing: 20px 10px;
 	margin: 0 auto;
+	width: 70%;
 }
 
 .services-list th{
@@ -166,8 +169,8 @@ nav a{
 }
 
 .order-table input{
-	width: 180px;
 	height: 30px;
+	width: 180px;
 }
 
 .order-table textarea{
@@ -176,29 +179,29 @@ nav a{
 
 .slider{
 	background: url('../img/macbook.png') 0 0;
-	background-size: 100% 100%;
+	background-size: 100% 100%; /* Должно быть после background, иначе съезжает верстка */
 	height: 500px;
-	width: 70%;
 	margin: 0 auto;
+	width: 70%;
 }
 
 .slide{
-	width: 100%;
 	height: 100%;
+	width: 100%;
 }
 
 .slide img{
-	width: 80.25%;
 	height: 81.5%;
+	left: 1px;
 	position: relative;
 	top: 27px;
-	left: 1px;
+	width: 80.25%;
 }
 
 .col{
-	width: 20%;
 	display: inline-block;
 	margin: 40px 15px 0;
+	width: 20%;
 }
 
 .col-l{
@@ -216,17 +219,44 @@ nav a{
 	float: right;
 }
 
+*{
+	outline: 1px solid red;
+}
+
 .social span{
-	display: inline-block;
-	margin-bottom: 20px;
+	display: block;
 	font-size: 1.1em;
+	margin-bottom: 20px;
+	float:both;
 }
 
 .social-icon{
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 	background: #046;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+}
+
+.top{
+	background: #36597d;
+	bottom: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 7em;
+	height: 0;
+	opacity: 0.3;
+	position: fixed;
+	right: 50px;
+	text-align: center;
+	width: 100px;
+	transition: opacity 0.5s ease-out, height 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out, height 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out, height 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out, height 0.5s ease-out;
+}
+
+.top:hover{
+	opacity: 1;
 }
 
 #vk, #fb, #tw{
@@ -303,5 +333,14 @@ nav a{
 	.slide img{
 		top: 20px;
 		left: 1px;
+	}
+}
+
+@media (min-width:1500px){
+	.main-foto{
+		height: 650px;
+	}
+	.slider{
+		height: 650px;
 	}
 }

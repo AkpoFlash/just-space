@@ -36,9 +36,8 @@
 </head>
 <body>
 	<nav>
-		<img src="img/JS.png" alt="ПростоКосмос" class="logo">
+		<img src="img/JS.png" alt="Just Space" class="logo">
 		<ul class="menu">
-			<li><a href="" id="head">Just Space</a></li>
 			<li><a href="#services">Услуги</a></li>
 			<li><a href="#portfolio">Портфолио</a></li>
 			<li><a href="#footer">Контакты</a></li>
@@ -56,7 +55,7 @@
 
 	<div><a id="services"></a></div>
 	<div class="article services">
-		<h1>Наши услуги</h1>
+		<h1>Вы можете заказать у нас</h1>
 		<table class="services-list">
 			<tr>
 				<td><img src="img/Без-имени-3.png" height="80" width="80"></td>
@@ -64,9 +63,9 @@
 				<td><img src="img/Без-имени-1.png" height="80" width="80"></td>
 			</tr>
 			<tr>
-				<th>Дизайн</th>
-				<th>Создание сайта</th>
-				<th>Продвижение</th>
+				<th><a href="design.php">Дизайн</a></th>
+				<th><a href="develop.php">Создание сайта</a></th>
+				<th><a href="seo.php">Продвижение</a></th>
 			</tr>
 			<tr>
 				<td>Вам необходимо создать уникальный макет сайта или воспользоваться готовым, но подстроенным точно под вас решением? Тогда вы пришли по адресу.</td>
@@ -86,9 +85,6 @@
 	<div><a id="portfolio"></a></div>
 	<div class="article portfolio">
 		<h1>Портфолио</h1>
-	<style>
-
-		</style>
 
 		<div id="slider-wrap">
 			<div class="slider" id="slider">
@@ -192,5 +188,7 @@
 			</div>
 		</div>
 	</div>
+
+	<a href="" id="head" class="top">^</a>
 </body>
 </html>
