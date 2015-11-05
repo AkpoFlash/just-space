@@ -1,3 +1,5 @@
+var topShow = 500;
+
 $(document).ready(function(){
    $('a[href*=#]').bind("click", function(e){
       var anchor = $(this);
@@ -15,6 +17,16 @@ $(document).ready(function(){
         e.preventDefault();
     });
     return false;
+});
+
+$(document).ready(function(){
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > topShow){
+      $('#head').css({"height" : "80px", "padding-bottom" : "30px"});
+    }else{
+      $('#head').css({"height": "0", "padding-bottom" : "0"});
+    }
+  });
 });
 
 function over_social_icon(id, src){
