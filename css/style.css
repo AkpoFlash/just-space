@@ -3,8 +3,7 @@ body{
 	color: #000;
 	font-family: 'Leto';
 	font-size: 1.4em;
-	margin-top: 90px;
-	margin: 0;
+	margin: 90px 0 0 0;
 	width: 100%;
 }
 
@@ -97,7 +96,7 @@ nav a{
 .marker{
 	background: #4fa4b3;
 	margin: 0;
-	padding: 50px 0;
+	padding: 50px 30px;
 	text-align: center;
 }
 
@@ -115,6 +114,15 @@ nav a{
 .article{
 	padding: 50px 0;
 	text-align: center;
+}
+
+.description{
+	margin-top: -50px;
+}
+
+.description div{
+	text-align: center;
+	padding: 0 30px;
 }
 
 .portfolio-list{
@@ -217,10 +225,6 @@ nav a{
 .col-r{
 	display: inline-block;
 	float: right;
-}
-
-*{
-	outline: 1px solid red;
 }
 
 .social span{
