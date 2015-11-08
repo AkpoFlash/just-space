@@ -152,19 +152,22 @@
 	<div class="article contact">
 		<table>
 			<tr>
-				<th colspan="2"><h1 id="footer">Контакты</h1></th>
+				<th colspan="3"><h1 id="footer">Контакты</h1></th>
 			</tr>
 			<tr>
 				<td><img src="img/messange.png"></td>
 				<td><img src="img/email.png"></td>
+				<td><img src="img/blog.png"></td>
 			</tr>
 			<tr>
 				<td><span>Звоните</span></td>
 				<td><span>Пишите</span></td>
+				<td><span>Читайте</span></td>
 			</tr>
 			<tr>
 				<td><a href="tel:+79101617527">+7 (910) 161-75-27</a></td>
 				<td><a href="mailto:akpoflash@gmail.com">akpoflash@gmail.com</a></td>
+				<td><a href="blog.php">Наш блог</a></td>
 			</tr>
 		</table>
 	</div>
