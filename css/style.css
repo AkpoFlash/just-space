@@ -141,11 +141,16 @@ nav a{
 .contact span{
 	display: inline-block;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .contact table{
 	border-spacing: 50px 0;
 	margin: 0 auto;
+}
+
+.contact table td{
+	width: 33.33333333333%;
 }
 
 .contact table img{
@@ -164,7 +169,7 @@ nav a{
 }
 
 .services-list td{
-	width:33.33333333333%;
+	width: 33.33333333333%;
 }
 
 .order-table{
@@ -261,6 +266,22 @@ nav a{
 
 .top:hover{
 	opacity: 1;
+}
+
+.blog-head{
+	background: #36597d;
+	color: #fff;
+	height: 90px;
+	margin-top: -90px;
+	padding: 50px 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.blog-head span{
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 10px;
 }
 
 #vk, #fb, #tw{
