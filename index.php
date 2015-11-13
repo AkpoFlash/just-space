@@ -41,7 +41,7 @@
 			<li><a href="#services">Услуги</a></li>
 			<li><a href="#portfolio">Портфолио</a></li>
 			<li><a href="#footer">Контакты</a></li>
-			<li><a href="#order">Сделать заказ</a></li>
+			<li class="special"><a href="#order">Сделать заказ</a></li>
 		</ul>
 	</nav>
 	<div class="main-foto">
@@ -53,9 +53,8 @@
 		Работая с современными технологиями мы всегда на шаг впереди конкурентов. Наши сайты работают быстрей, и всегда сделаны с любовью.
 	</div>
 
-	<div><a id="services"></a></div>
 	<div class="article services">
-		<h1>Вы можете заказать у нас</h1>
+		<h1 id="services">Вы можете заказать у нас</h1>
 		<table class="services-list">
 			<tr>
 				<td><img src="img/Без-имени-3.png" height="80" width="80"></td>
@@ -82,9 +81,8 @@
 		благодаря этому наши производственные затраты малы и мы реализуем все проекты за минимальную цену.
 	</div>
 
-	<div><a id="portfolio"></a></div>
 	<div class="article portfolio">
-		<h1>Портфолио</h1>
+		<h1 id="portfolio">Портфолио</h1>
 
 		<div id="slider-wrap">
 			<div class="slider" id="slider">
@@ -104,9 +102,8 @@
 		Заполните представленную нижу форму, чтобы мы могли связаться с вами и обсудить подробности заказа.
 	</div>
 
-	<div><a id="order"></a></div>
 	<div class="article order">
-		<h1>Оставить заявку</h1>
+		<h1 id="order">Оставить заявку</h1>
 		<form action="index.php" method="POST">
 			<table class="order-table">
 				<tr>
@@ -152,23 +149,25 @@
 		Вы можете позвонить, написать или оставить заявку в любое время, мы обязательно обработаем вызов и свяжемся с вами.
 	</div>
 
-	<div><a id="footer"></a></div>
 	<div class="article contact">
 		<table>
 			<tr>
-				<th colspan="2"><h1>Контакты</h1></th>
+				<th colspan="3"><h1 id="footer">Контакты</h1></th>
 			</tr>
 			<tr>
 				<td><img src="img/messange.png"></td>
 				<td><img src="img/email.png"></td>
+				<td><img src="img/blog.png"></td>
 			</tr>
 			<tr>
 				<td><span>Звоните</span></td>
 				<td><span>Пишите</span></td>
+				<td><span>Читайте</span></td>
 			</tr>
 			<tr>
 				<td><a href="tel:+79101617527">+7 (910) 161-75-27</a></td>
 				<td><a href="mailto:akpoflash@gmail.com">akpoflash@gmail.com</a></td>
+				<td><a href="blog.php">Наш блог</a></td>
 			</tr>
 		</table>
 	</div>

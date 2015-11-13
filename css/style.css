@@ -3,8 +3,7 @@ body{
 	color: #000;
 	font-family: 'Leto';
 	font-size: 1.4em;
-	margin-top: 90px;
-	margin: 0;
+	margin: 90px 0 0 0;
 	width: 100%;
 }
 
@@ -97,7 +96,7 @@ nav a{
 .marker{
 	background: #4fa4b3;
 	margin: 0;
-	padding: 50px 0;
+	padding: 50px 30px;
 	text-align: center;
 }
 
@@ -117,6 +116,15 @@ nav a{
 	text-align: center;
 }
 
+.description{
+	margin-top: -50px;
+}
+
+.description div{
+	text-align: center;
+	padding: 0 30px;
+}
+
 .portfolio-list{
 	border-spacing: 100px 10px;
 	margin: 0 auto;
@@ -133,11 +141,16 @@ nav a{
 .contact span{
 	display: inline-block;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .contact table{
 	border-spacing: 50px 0;
 	margin: 0 auto;
+}
+
+.contact table td{
+	width: 33.33333333333%;
 }
 
 .contact table img{
@@ -156,7 +169,7 @@ nav a{
 }
 
 .services-list td{
-	width:33.33333333333%;
+	width: 33.33333333333%;
 }
 
 .order-table{
@@ -219,10 +232,6 @@ nav a{
 	float: right;
 }
 
-*{
-	outline: 1px solid red;
-}
-
 .social span{
 	display: block;
 	font-size: 1.1em;
@@ -257,6 +266,22 @@ nav a{
 
 .top:hover{
 	opacity: 1;
+}
+
+.blog-head{
+	background: #36597d;
+	color: #fff;
+	height: 90px;
+	margin-top: -90px;
+	padding: 50px 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.blog-head span{
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 10px;
 }
 
 #vk, #fb, #tw{
