@@ -30,11 +30,11 @@ $(document).ready(function(){
 });
 
 function over_social_icon(id, src){
-  document.getElementById(id).src = "img/" + src + ".svg";
+  document.getElementById(id).src = "/img/"+src;
 }
 
 function out_social_icon(id, src){
-  document.getElementById(id).src = "img/" + src + ".svg";
+  document.getElementById(id).src = "/img/"+src;
 }
 
 (function ($) {

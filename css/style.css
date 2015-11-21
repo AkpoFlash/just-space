@@ -268,14 +268,17 @@ nav a{
 	opacity: 1;
 }
 
+/* БЛОГ */
+
 .blog-head{
 	background: #36597d;
 	color: #fff;
-	height: 90px;
+	height: 180px;
 	margin-top: -90px;
 	padding: 50px 30px;
 	text-align: center;
 	width: 100%;
+	box-sizing:border-box;
 }
 
 .blog-head span{
@@ -283,6 +286,28 @@ nav a{
 	font-size: 1.5em;
 	margin-bottom: 10px;
 }
+
+.blog-article{
+	width: 100%;
+	box-sizing:border-box;
+	padding: 50px 30px;
+	border-bottom: 1px dashed #36597d;
+}
+
+.blog-article > .title{
+	text-align: center;
+}
+
+.blog-article > .preview{
+	text-align: justify;
+}
+
+.blog-article > .more{
+	margin-top: 50px;
+	display: inline-block;
+}
+
+/* КОНЕЦ БЛОГ */
 
 #vk, #fb, #tw{
 	width: 60px;
