@@ -1,7 +1,7 @@
 <?
-	require_once($_SERVER['DOCUMENT_ROOT']."include/const.php");
-	require_once($_SERVER['DOCUMENT_ROOT']."include/init.php");
-	require_once($_SERVER['DOCUMENT_ROOT']."include/header.php");
+	require_once($_SERVER['DOCUMENT_ROOT']."/include/const.php");
+	require_once($_SERVER['DOCUMENT_ROOT']."/include/init.php");
+	require_once($_SERVER['DOCUMENT_ROOT']."/include/header.php");
 ?>
 	<body>
 		<nav>
@@ -68,5 +68,5 @@
 			</table>	
 		</div>
 <?
-	require_once($_SERVER['DOCUMENT_ROOT']."include/footer.php");
+	require_once($_SERVER['DOCUMENT_ROOT']."/include/footer.php");
 ?>
