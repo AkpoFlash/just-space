@@ -17,8 +17,16 @@ textarea{
 }
 
 a{
-	color: #256;
+	color: #4fa4b3;
 	text-decoration: none;
+}
+
+a:visited{
+	color: #4fa4b3;
+}
+
+a:active{
+	color: #f00;
 }
 
 a:hover{
@@ -39,6 +47,14 @@ nav a{
 	color: #fff;
 	font-size: 1em;
 	text-decoration: none;
+}
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:active{
+	color: #fff;
 }
 
 .menu{
@@ -69,11 +85,15 @@ nav a{
     -o-transition: border 0.4s ease-out;
 }
 
-.menu > li:last-child a{
+.menu > .special a{
 	background: #E40808;
 	border-radius: 3px;	
 	border: none;
 	color: #fff;
+}
+
+.menu > .special:hover a{
+	border: none;
 }
 
 .logo{
@@ -114,6 +134,7 @@ nav a{
 .article{
 	padding: 50px 0;
 	text-align: center;
+	border-top: 1px dashed #36597d;
 }
 
 .description{
@@ -183,11 +204,11 @@ nav a{
 
 .order-table input{
 	height: 30px;
-	width: 180px;
+	width: 250px;
 }
 
 .order-table textarea{
-	width: 180px;
+	width: 250px;
 }
 
 .slider{
@@ -291,7 +312,15 @@ nav a{
 	width: 100%;
 	box-sizing:border-box;
 	padding: 50px 30px;
-	border-bottom: 1px dashed #36597d;
+	border-top: 1px dashed #36597d;
+}
+
+.blog-head + .blog-article{
+	border-top: none;
+}
+
+.marker + .article{
+	border-top: none;
 }
 
 .blog-article > .title{

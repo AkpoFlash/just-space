@@ -26,7 +26,7 @@
 			благодаря этому наши производственные затраты малы и мы реализуем все проекты за минимальную цену.
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Дизайн для сайтов</h1>
 			<table class="services-list">
 				<tr>
@@ -43,7 +43,7 @@
 				</tr>
 			</table>	
 		</div>
-		<div class="article services">
+		<div class="article">
 			<h1>Дизайн для мобильных приложений</h1>
 			<table class="services-list">
 				<tr>
@@ -66,7 +66,7 @@
 			буклеты, брошюры, календари и другая рекламная полиграфическая продукция
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Визитки</h1>
 			<table class="services-list">
 				<tr>
@@ -84,7 +84,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Логотипы</h1>
 			<table class="services-list">
 				<tr>
@@ -102,7 +102,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Брендбуки</h1>
 			<table class="services-list">
 				<tr>
@@ -120,7 +120,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Рекламные плакаты</h1>
 			<table class="services-list">
 				<tr>

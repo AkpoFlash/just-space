@@ -77,24 +77,24 @@
 				<table class="order-table">
 					<tr>
 						<td>ФИО</td>
-						<td><input type="text" name="name" placeholder="Иванов Иван Иванович" <?php echo "value=\"".$_POST['name']."\""; ?> required></td>
+						<td><input type="text" name="name" placeholder="Ваше имя" <?php echo "value=\"".$_POST['name']."\""; ?> required></td>
 					</tr>
 					<tr>
 						<td>Телефон</td>
-						<td><input type="text" name="telephone" placeholder="+7 (910) 161-75-27" <?php echo "value=\"".$_POST['telephone']."\""; ?> required></td>
+						<td><input type="text" name="telephone" placeholder="Телефон для связи с вами" <?php echo "value=\"".$_POST['telephone']."\""; ?> required></td>
 					</tr>
 					<tr>
 						<td>Email</td>
-						<td><input type="email" name="email" placeholder="justspace@gmail.com" <?php echo "value=\"".$_POST['email']."\""; ?> required></td>
+						<td><input type="email" name="email" placeholder="Email для связи с вами" <?php echo "value=\"".$_POST['email']."\""; ?> required></td>
 					</tr>
 					<tr>
 						<td>Бюджет</td>
-						<td><input type="text" name="cost" placeholder="5000 руб." <?php echo "value=\"".$_POST['cost']."\""; ?> required></td>
+						<td><input type="text" name="cost" placeholder="Сумма в которую хотите уложиться" <?php echo "value=\"".$_POST['cost']."\""; ?> required></td>
 					</tr>
 					<tr>
 						<td>Комментарий</td>
 						<td>
-							<textarea name="description" rows="10" required><?php echo $_POST['description']; ?></textarea>
+							<textarea name="description" rows="10" placeholder="По возможности максимально полно опишите желаемую услугу" required><?php echo $_POST['description']; ?></textarea>
 						</td>
 					</tr>
 					<tr>

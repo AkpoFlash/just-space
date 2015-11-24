@@ -28,7 +28,7 @@
 			благодаря этому наши производственные затраты малы и мы реализуем все проекты за минимальную цену.
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Сайт-визитка</h1>
 			<table class="services-list">
 				<tr>
@@ -46,7 +46,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Лендинги</h1>
 			<table class="services-list">
 				<tr>
@@ -70,7 +70,7 @@
 			благодаря этому наши производственные затраты малы и мы реализуем все проекты за минимальную цену.
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Корпоративные сайты</h1>
 			<table class="services-list">
 				<tr>
@@ -88,7 +88,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Интернет-магазины</h1>
 			<table class="services-list">
 				<tr>
@@ -111,7 +111,7 @@
 			Поддержка уже готовых сайтов
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Поддержка уже готовых сайтов</h1>
 			<table class="services-list">
 				<tr>
@@ -129,7 +129,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Работы с CMS</h1>
 			<table class="services-list">
 				<tr>
@@ -147,7 +147,7 @@
 			</table>	
 		</div>
 
-		<div class="article services">
+		<div class="article">
 			<h1>Хостинг</h1>
 			<table class="services-list">
 				<tr>
