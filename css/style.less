@@ -1,0 +1,399 @@
+@color-white: #fff;
+@color-black: #000;
+@color-blue: #4fa4b3;
+@color-dark-blue: #36597d;
+@color-red: #e40808;
+@color-gray: #e0e0e0;
+@color-vk: #5C82AB;
+@color-fb: #3B5998;
+@color-tw: #55ACEE;
+
+
+body{
+  background: @color-white;
+  color: @color-black;
+  font-family: 'Leto';
+  font-size: 1.4em;
+  margin: 90px 0 0 0;
+  width: 100%;
+}
+
+@font-face{
+  font-family: 'Leto';
+  src: url('Leto Text Sans Defect.otf');
+}
+
+textarea{
+  resize: vertical;
+}
+
+a{
+  color: @color-blue;
+  text-decoration: none;
+  &:visited{
+    color: @color-blue;
+  }
+  &:active{
+    color: @color-red;
+  }
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+nav{
+  background: @color-dark-blue;
+  border-bottom: 1px solid darken(@color-dark-blue,10%);
+  height: 90px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 10;
+  a{
+    color: @color-white;
+    font-size: 1em;
+    text-decoration: none;
+    &:visited{
+      color: @color-white;
+    }
+    &:active{
+      color: @color-white;
+    }
+  }
+}
+
+.menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  > li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+    a{
+      border: 2px solid @color-dark-blue;
+      padding: 5px 10px;
+    }
+    &:hover a{
+      border-radius: 3px;
+      border: 2px solid @color-gray;
+      text-decoration: none;
+      transition: border 0.4s ease-out;
+      -webkit-transition: border 0.4s ease-out;
+      -moz-transition: border 0.4s ease-out;
+      -o-transition: border 0.4s ease-out;
+    }
+  }
+  > .special a{
+    background: @color-red;
+    border-radius: 3px;
+    border: none;
+    color: @color-white;
+  }
+  > .special:hover a{
+    border: none;
+  }
+}
+
+.logo{
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width:60px;
+}
+
+.main-foto{
+  height: 500px;
+  padding: 0;
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.marker{
+  background: @color-blue;
+  margin: 0;
+  padding: 50px 30px;
+  text-align: center;
+  span{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .col{
+    margin: 0;
+  }
+  + .article{
+    border-top: none;
+  }
+}
+
+.article{
+  padding: 50px 0;
+  text-align: center;
+  border-top: 1px dashed @color-dark-blue;
+}
+
+.description{
+  margin-top: -50px;
+  div{
+    text-align: center;
+    padding: 0 30px;
+  }
+}
+
+.portfolio-list{
+  border-spacing: 100px 10px;
+  margin: 0 auto;
+  td{
+    width: 300px;
+  }
+  img{
+    width:100%;
+  }
+}
+
+.contact {
+  span {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  table{
+    border-spacing: 50px 0;
+    margin: 0 auto;
+    td{
+      width: 33.33333333333%;
+    }
+    img{
+      height: 80px;
+      width: 80px;
+    }
+  }
+}
+
+.services-list{
+  border-spacing: 20px 10px;
+  margin: 0 auto;
+  width: 70%;
+  th{
+    font-size: 1.2em;
+  }
+  td{
+    width: 33.33333333333%;
+  }
+}
+
+.order-table{
+  margin: 0 auto;
+  border-spacing: 20px 10px;
+  tr{
+    height: 50px;
+  }
+  input{
+    height: 30px;
+    width: 250px;
+  }
+  textarea{
+    width: 250px;
+  }
+}
+
+.slider{
+  background: url('../img/macbook.png') 0 0;
+  background-size: 100% 100%; /* Должно быть после background, иначе съезжает верстка */
+  height: 500px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.slide{
+  height: 100%;
+  width: 100%;
+  img{
+    height: 81.5%;
+    left: 1px;
+    position: relative;
+    top: 27px;
+    width: 80.25%;
+  }
+}
+
+.col{
+  display: inline-block;
+  margin: 40px 15px 0;
+  width: 20%;
+}
+
+.col-l{
+  display: inline-block;
+  float: left;
+}
+
+.col-c{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.col-r{
+  display: inline-block;
+  float: right;
+}
+
+.social span{
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  float:both;
+}
+
+.social-icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+
+.top{
+  background: @color-dark-blue;
+  bottom: 0;
+  color: @color-white;
+  cursor: pointer;
+  font-size: 7em;
+  height: 0;
+  opacity: 0.3;
+  position: fixed;
+  right: 50px;
+  text-align: center;
+  width: 100px;
+  transition: opacity 0.5s ease-out, height 0.5s ease-out;
+  -webkit-transition: opacity 0.5s ease-out, height 0.5s ease-out;
+  -moz-transition: opacity 0.5s ease-out, height 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out, height 0.5s ease-out;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.blog-head{
+  background: @color-dark-blue;
+  color: @color-white;
+  height: 180px;
+  margin-top: -90px;
+  padding: 50px 30px;
+  text-align: center;
+  width: 100%;
+  box-sizing:border-box;
+  span{
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  + .blog-article{
+    border-top: none;
+  }
+}
+
+.blog-article{
+  width: 100%;
+  box-sizing:border-box;
+  padding: 50px 30px;
+  border-top: 1px dashed @color-dark-blue;
+  > .title{
+    text-align: center;
+  }
+  > .preview{
+    text-align: justify;
+  }
+  > .more{
+    margin-top: 50px;
+    display: inline-block;
+  }
+}
+
+#vk, #fb, #tw{
+  width: 60px;
+}
+
+#vk{
+  background: @color-vk;
+  border: 1px solid darken(@color-vk,10%);
+}
+
+#fb{
+  background: @color-fb;
+  border: 1px solid darken(@color-fb,10%);
+}
+
+#tw{
+  background: @color-tw;
+  border: 1px solid darken(@color-tw,10%);
+}
+
+#slider{ /* Оболочка слайдера */
+  position:relative;
+}
+
+#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+  display: block;
+  width: 15px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  text-indent: -999px;
+  background: url(../img/arrowBg.png) left center no-repeat;
+  opacity: 0.8;
+  z-index: 3;
+  outline: none !important;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+#prewbutton{
+  left: 10px;
+}
+
+#nextbutton{
+  right: 10px;
+  background: url(../img/arrowBg.png) right center no-repeat;
+}
+
+@media (max-width:1050px){
+  .menu > li{
+    font-size: 1em;
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 30px;
+    }
+  }
+  .main-foto{
+    height: 400px;
+  }
+  .slider{
+    height: 350px;
+  }
+  .social-icon{
+    width: 50px;
+    height: 50px;
+  }
+  #vk, #fb, #tw{
+    width: 50px;
+  }
+  .slide img{
+    top: 20px;
+    left: 1px;
+  }
+}
+
+@media (min-width:1500px){
+  .main-foto{
+    height: 650px;
+  }
+  .slider{
+    height: 650px;
+  }
+}
