@@ -136,7 +136,7 @@
 				</tr>
 				<tr>
 					<td><a href="tel:+79101617527">+7 (910) 161-75-27</a></td>
-					<td><a href="mailto:akpoflash@gmail.com">akpoflash@gmail.com</a></td>
+					<td><a href="mailto:just.space.tula@gmail.com">just.space.tula@gmail.com</a></td>
 					<td><a href="blog/index.php">Наш блог</a></td>
 				</tr>
 			</table>
