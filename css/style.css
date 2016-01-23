@@ -1,6 +1,6 @@
 body {
-  background: #ffffff;
-  color: #000000;
+  background: #fff;
+  color: #000;
   font-family: 'Leto';
   font-size: 1.4em;
   margin: 90px 0 0 0;
@@ -36,15 +36,15 @@ nav {
   z-index: 10;
 }
 nav a {
-  color: #ffffff;
+  color: #fff;
   font-size: 1em;
   text-decoration: none;
 }
 nav a:visited {
-  color: #ffffff;
+  color: #fff;
 }
 nav a:active {
-  color: #ffffff;
+  color: #fff;
 }
 .menu {
   list-style: none;
@@ -74,7 +74,7 @@ nav a:active {
   background: #e40808;
   border-radius: 3px;
   border: none;
-  color: #ffffff;
+  color: #fff;
 }
 .menu > .special:hover a {
   border: none;
@@ -224,7 +224,7 @@ nav a:active {
 .top {
   background: #36597d;
   bottom: 0;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   font-size: 7em;
   height: 0;
@@ -243,7 +243,7 @@ nav a:active {
 }
 .blog-head {
   background: #36597d;
-  color: #ffffff;
+  color: #fff;
   height: 180px;
   margin-top: -90px;
   padding: 50px 30px;
@@ -281,15 +281,15 @@ nav a:active {
   width: 60px;
 }
 #vk {
-  background: #5c82ab;
+  background: #5C82AB;
   border: 1px solid #48698c;
 }
 #fb {
-  background: #3b5998;
+  background: #3B5998;
   border: 1px solid #2d4373;
 }
 #tw {
-  background: #55acee;
+  background: #55ACEE;
   border: 1px solid #2795e9;
 }
 #slider {
