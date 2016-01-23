@@ -46,6 +46,11 @@ nav a:visited {
 nav a:active {
   color: #fff;
 }
+nav .toggle-nav {
+  display: none;
+  text-decoration: none;
+  cursor: pointer;
+}
 .menu {
   list-style: none;
   margin: 0;
@@ -323,12 +328,22 @@ nav a:active {
   background: url(../img/arrowBg.png) right center no-repeat;
 }
 @media (max-width: 1050px) {
-  .menu > li {
+  nav .toggle-nav {
+    text-align: right;
+    display: block;
+    padding: 30px 30px 0 0;
+    font-size: 1.25em;
+  }
+  nav .menu {
+    display: none;
+    text-align: center;
+    background: #36597d;
+    padding: 10px 0 30px;
+  }
+  nav .menu > li {
+    display: block;
     font-size: 1em;
     margin-right: 10px;
-  }
-  .menu > li:last-child {
-    margin-right: 30px;
   }
   .main-foto {
     height: 400px;

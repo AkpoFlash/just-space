@@ -14,6 +14,6 @@
 			</div>
 		</div>
 
-		<a href="" id="head" class="top">^</a>
+		<a href="#top" id="head" class="top">^</a>
 	</body>
 </html>
