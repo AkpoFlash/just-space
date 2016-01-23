@@ -1,7 +1,29 @@
 var topShow = 500;
+var currentWidth = 0;
+var mobileWidth = 1050;
 
+//burger menu
 $(document).ready(function(){
-   $('a[href*=#]').bind("click", function(e){
+    $(".toggle-nav").on('click', function(e){
+        $(".menu").slideToggle(300);
+    });
+    return true;
+});
+
+//detected mobile version
+$(window).on("load resize", function(){
+    currentWidth = parseInt($(window).width() + 17);
+    if(currentWidth > mobileWidth){
+        $(".menu").slideDown(0);
+    }
+});
+
+//smooth scroll
+$(document).ready(function(){
+   $('.menu a[href*=#]').on("click", function(e){
+       if(currentWidth <= mobileWidth){
+           $(".menu").slideUp(300);
+       }
       var anchor = $(this);
       $('html, body').stop().animate({
          scrollTop: $(anchor.attr('href')).offset().top - 100
@@ -11,14 +33,16 @@ $(document).ready(function(){
    return false;
 });
 
+//fast scroll on top
 $(document).ready(function(){
-    $("#head").bind('click', function(e){
+    $("#head").on('click', function(e){
         $('html, body').animate({scrollTop: 0}, 1000);
         e.preventDefault();
     });
     return false;
 });
 
+//appearance arrow for fast scroll on top
 $(document).ready(function(){
   $(window).scroll(function () {
     if ($(this).scrollTop() > topShow){
@@ -29,6 +53,7 @@ $(document).ready(function(){
   });
 });
 
+//change color social icon
 function over_social_icon(id, src){
   document.getElementById(id).src = "/img/"+src;
 }
@@ -37,6 +62,7 @@ function out_social_icon(id, src){
   document.getElementById(id).src = "/img/"+src;
 }
 
+//portfolio slider
 (function ($) {
   var hwSlideSpeed = 700;
   var hwTimeOut = 3000;
@@ -68,7 +94,7 @@ function out_social_icon(id, src){
       }
   if(hwNeedLinks){
   var $linkArrow = $('<a id="prewbutton" href="#">&lt;</a><a id="nextbutton" href="#">&gt;</a>')
-    .prependTo('#slider');    
+    .prependTo('#slider');
     $('#nextbutton').click(function(){
       animSlide("next");
       return false;
@@ -82,10 +108,11 @@ function out_social_icon(id, src){
     var rotator = function(){
         if(!pause){slideTime = setTimeout(function(){animSlide('next')}, hwTimeOut);}
         }
-    $('#slider-wrap img, #prewbutton, #nextbutton').hover(  
+    $('#slider-wrap img, #prewbutton, #nextbutton').hover(
       function(){clearTimeout(slideTime); pause = true;},
       function(){pause = false; rotator();
       });
     rotator();
   });
   })(jQuery);
+

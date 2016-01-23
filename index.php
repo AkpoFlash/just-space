@@ -6,6 +6,7 @@
 	<body>
 		<nav>
 			<img src="img/JS.png" alt="Just Space" class="logo">
+			<a class="toggle-nav">&#9776;</a>
 			<ul class="menu">
 				<li><a href="#services">Услуги</a></li>
 				<li><a href="#portfolio">Портфолио</a></li>
