@@ -1,5 +1,5 @@
 var topShow = 500;
-var currentWidth = 0;
+var currentWidth = parseInt($(window).width() + 17);
 var mobileWidth = 1050;
 
 //burger menu
