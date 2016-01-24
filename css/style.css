@@ -219,7 +219,6 @@ nav .toggle-nav {
   display: block;
   font-size: 1.1em;
   margin-bottom: 20px;
-  float: both;
 }
 .social-icon {
   display: inline-block;
@@ -328,17 +327,32 @@ nav .toggle-nav {
   background: url(../img/arrowBg.png) right center no-repeat;
 }
 @media (max-width: 1050px) {
+  nav {
+    height: 100px;
+  }
+  nav .logo {
+    margin-top: 10px;
+  }
   nav .toggle-nav {
-    text-align: right;
     display: block;
-    padding: 30px 30px 0 0;
-    font-size: 1.25em;
+    padding: 35px 40px 0 0;
+  }
+  nav .toggle-nav span {
+    position: relative;
+    right: -95%;
+    display: block;
+    background: #fff;
+    height: 6px;
+    margin-top: 6px;
+    width: 40px;
+    border-radius: 2px;
   }
   nav .menu {
     display: none;
     text-align: center;
     background: #36597d;
     padding: 10px 0 30px;
+    font-size: 2em;
   }
   nav .menu > li {
     display: block;

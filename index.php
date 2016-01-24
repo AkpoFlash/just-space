@@ -6,7 +6,7 @@
 	<body>
 		<nav>
 			<img src="img/JS.png" alt="Just Space" class="logo">
-			<a class="toggle-nav">&#9776;</a>
+			<a class="toggle-nav"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></a>
 			<ul class="menu">
 				<li><a href="#services">Услуги</a></li>
 				<li><a href="#portfolio">Портфолио</a></li>
@@ -27,9 +27,9 @@
 			<h1 id="services">Вы можете заказать у нас</h1>
 			<table class="services-list">
 				<tr>
-					<td><img src="img/Без-имени-3.png" height="80" width="80"></td>
-					<td><img src="img/Без-имени-2.png" height="80" width="80"></td>
-					<td><img src="img/Без-имени-1.png" height="80" width="80"></td>
+					<td><img src="img/disign.png" height="80" width="80"></td>
+					<td><img src="img/develop.png" height="80" width="80"></td>
+					<td><img src="img/seo.png" height="80" width="80"></td>
 				</tr>
 				<tr>
 					<th><a href="design.php">Дизайн</a></th>

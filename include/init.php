@@ -15,8 +15,9 @@
 		fputs($file, $separator);
 		fclose($file);
 
-		if(mail("akpoflash@gmail.com","Just Space - Заказ", $name . $telephone . $email . $cost . $description)){
+		if(mail("just.space.tula@gmail.com","Just Space - Заказ", $name . $telephone . $email . $cost . $description)){
 			$_SESSION["event"]["file"] = "Ваша заявка отправлена. Мы с вами свяжемся.";
+			mail($_POST["email"],"Just Space", "Благодарим вас за оформиление заказа на нашем сайте, по указанному телефону с вами свяжется наш менеджер.");
 		}
 	}
 ?>
