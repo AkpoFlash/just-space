@@ -13,6 +13,4 @@
 		<title><?=$arHeader['TITLE']?></title>
 		<link rel="stylesheet" href="/css/style.css">
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="/js/script.js"></script>
 	</head>
