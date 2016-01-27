@@ -11,44 +11,48 @@
 				<li><a href="#services">Услуги</a></li>
 				<li><a href="#portfolio">Портфолио</a></li>
 				<li><a href="#footer">Контакты</a></li>
-				<li class="special"><a href="#order">Сделать заказ</a></li>
+				<li class="special"><a href="#order">Оформить заказ</a></li>
 			</ul>
 		</nav>
 		<div class="main-foto">
-			<img src="img/main.png" alt="">
+			<img src="img/main.png" alt="Дизайн, создание и продвижение сайтов">
 		</div>
 
 		<div class="marker">
-			<span>Почему мы лучше других?</span>
-			Работая с современными технологиями мы всегда на шаг впереди конкурентов. Наши сайты работают быстрей, и всегда сделаны с любовью.
+			<h2>Создаем успешные сайты для вашего бизнеса!</h2>
+			Предоставляем большой набор услуг по созданию, продвижению и улучшению сайтов. Сайты созданные нами действительно приносят прибыль.
 		</div>
 
 		<div class="article services">
 			<h1 id="services">Вы можете заказать у нас</h1>
 			<table class="services-list">
 				<tr>
-					<td><img src="img/disign.png" height="80" width="80"></td>
-					<td><img src="img/develop.png" height="80" width="80"></td>
-					<td><img src="img/seo.png" height="80" width="80"></td>
+					<td><img src="img/disign.png" alt="Дизайн" height="80" width="80"></td>
+					<td><img src="img/develop.png" alt="Создание сайтов" height="80" width="80"></td>
+					<td><img src="img/seo.png" alt="Продвижение сайтов" height="80" width="80"></td>
 				</tr>
 				<tr>
-					<th><a href="design.php">Дизайн</a></th>
+					<th><a href="design.php">Дизайн сайта</a></th>
 					<th><a href="develop.php">Создание сайта</a></th>
-					<th><a href="seo.php">Продвижение</a></th>
+					<th><a href="seo.php">Продвижение сайта</a></th>
 				</tr>
 				<tr>
-					<td>Вам необходимо создать уникальный макет сайта или воспользоваться готовым, но подстроенным точно под вас решением? Тогда вы пришли по адресу.</td>
-					<td>Занимаемся созданием сайтов любой сложности: корпоративные сайты, сайты-визитки, интернет-магазины, лендинги и другие виды сайтов.</td>
-					<td>Поможем продвинусь сайт на первые позиции поисковой выдачи. Контекстная реклама, продвижение в социальных сетях и многое другое.</td>
+					<td>
+						Вам необходимо создать уникальный дизайн сайта или воспользоваться шаблонным, но подстроенным точно под вас решением? Тогда вы пришли по адресу.
+					</td>
+					<td>
+                        Занимаемся созданием сайтов любой сложности: корпоративные сайты, сайты-визитки, интернет-магазины, лендинги и другие виды сайтов.
+                    </td>
+					<td>
+                        Поможем поднять сайт на первые позиции поисковой выдачи. Контекстная реклама, SEO продвижение, продвижение в социальных сетях и многое другое.
+                    </td>
 				</tr>
 			</table>	
 		</div>
 
 		<div class="marker">
-
-			<span>Почему у нас так дешево?</span>
-			Мы обеспечиваем хорошее качество, по низкой цене. Вы можете усомниться в этом, но все наши сотрудники работают удаленно,
-			благодаря этому наши производственные затраты малы и мы реализуем все проекты за минимальную цену.
+			<h2>Работаем не только в Туле, но и в других регионах</h2>
+			Вы можете ознакомиться с нашими работами, многие из них были созданы с нуля, для некоторых мы проводили SEO продвижение или вносили необходимые доработки в функционал.
 		</div>
 
 		<div class="article portfolio">
@@ -56,19 +60,21 @@
 
 			<div id="slider-wrap">
 				<div class="slider" id="slider">
-					<div class="slide"><a href="http://bmw-auto.esy.es/" target="_blank"><img src="img/slider/bmw-auto.jpg"></a></div>
-					<div class="slide"><a href="http://xn--80aaag5aibdc9cbelig9l4b.xn--p1ai/" target="_blank"><img src="img/slider/tul-flat.jpg"></a></div>
-					<div class="slide"><a href="http://xn--80ahnhilyf.xn--p1ai/" target="_blank"><img src="img/slider/taxi-house.jpg"></a></div>
-					<div class="slide"><a href="http://mwcorp.ru/" target="_blank"><img src="img/slider/mwcorp.jpg"></a></div>
-					<div class="slide"><a href="http://cooking.mwcorp.ru/" target="_blank"><img src="img/slider/cooking.jpg"></a></div>
-					<div class="slide"><a href="http://xn----8sbk2abp4ai9h.xn--p1ai/" target="_blank"><img src="img/slider/doly-tula.jpg"></a></div>
-					<div class="slide"><a href="http://www.gazel-traffic.ru/" target="_blank"><img src="img/slider/gazel-traffic.jpg"></a></div>
+					<div class="slide"><a href="http://bmw-auto.esy.es/" target="_blank"><img src="img/slider/bmw-auto.jpg" alt="bmw-auto.ru"></a></div>
+					<div class="slide"><img src="img/slider/tul-flat.jpg" alt="tul-flat.ru"></div>
+					<div class="slide"><img src="img/slider/taxi-house.jpg" alt="taxi-house.ru"></div>
+					<div class="slide"><a href="http://mwcorp.ru/" target="_blank"><img src="img/slider/mwcorp.jpg" alt="mwcorp.ru"></a></div>
+                    <div class="slide"><a href="https://www.nevstavay.ru/" target="_blank"><img src="img/slider/nevstavay.jpg" alt="nevstavay.ru"></a></div>
+                    <div class="slide"><a href="http://cooking.mwcorp.ru/" target="_blank"><img src="img/slider/cooking.jpg" alt="mwcorp-cooking.ry"></a></div>
+					<div class="slide"><a href="http://xn----8sbk2abp4ai9h.xn--p1ai/" target="_blank"><img src="img/slider/doly-tula.jpg" alt="doly-tula.ru"></a></div>
+                    <div class="slide"><a href="http://www.beauty-shop.ru/" target="_blank"><img src="img/slider/beauty-shop.jpg" alt="beauty-shop.ru"></a></div>
+                    <div class="slide"><a href="http://www.gazel-traffic.ru/" target="_blank"><img src="img/slider/gazel-traffic.jpg" alt="gazel-traffic.ru"></a></div>
 				</div>
 			</div>
 		</div>
 
 		<div class="marker">
-			<span>Хотите работать с нами?</span>
+			<span>Хотите заказать сайт или SEO продвижение?</span>
 			Заполните представленную нижу форму, чтобы мы могли связаться с вами и обсудить подробности заказа.
 		</div>
 
@@ -125,9 +131,9 @@
 					<th colspan="3"><h1 id="footer">Контакты</h1></th>
 				</tr>
 				<tr>
-					<td><img src="img/messange.png"></td>
-					<td><img src="img/email.png"></td>
-					<td><img src="img/blog.png"></td>
+					<td><img src="img/messange.png" alt="Корпоративный телефон"></td>
+					<td><img src="img/email.png" alt="Корпоративная почта"></td>
+					<td><img src="img/blog.png" alt="Корпоративный блог"></td>
 				</tr>
 				<tr>
 					<td><span>Звоните</span></td>
