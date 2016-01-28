@@ -19,12 +19,12 @@
 		</div>
 
 		<div class="marker">
-			<h2>Создаем успешные сайты для вашего бизнеса!</h2>
+			<h1>Создаем успешные сайты для вашего бизнеса!</h1>
 			Предоставляем большой набор услуг по созданию, продвижению и улучшению сайтов. Сайты созданные нами действительно приносят прибыль.
 		</div>
 
 		<div class="article services">
-			<h1 id="services">Вы можете заказать у нас</h1>
+			<h2 id="services">Вы можете заказать у нас</h2>
 			<table class="services-list">
 				<tr>
 					<td><img src="img/disign.png" alt="Дизайн" height="80" width="80"></td>
@@ -56,7 +56,7 @@
 		</div>
 
 		<div class="article portfolio">
-			<h1 id="portfolio">Портфолио</h1>
+			<h2 id="portfolio">Портфолио</h2>
 
 			<div id="slider-wrap">
 				<div class="slider" id="slider">
@@ -74,12 +74,12 @@
 		</div>
 
 		<div class="marker">
-			<span>Хотите заказать сайт или SEO продвижение?</span>
+			<h2>Хотите заказать сайт или SEO продвижение?</h2>
 			Заполните представленную нижу форму, чтобы мы могли связаться с вами и обсудить подробности заказа.
 		</div>
 
 		<div class="article order">
-			<h1 id="order">Оставить заявку</h1>
+			<h2 id="order">Оставить заявку</h2>
 			<form action="index.php" method="POST">
 				<table class="order-table">
 					<tr>
@@ -121,14 +121,14 @@
 			$_SESSION["event"]["file"] = "";
 		?>
 		<div class="marker">
-			<span>Мы всегда на связи</span>
+			<h2>Мы всегда на связи</h2>
 			Вы можете позвонить, написать или оставить заявку в любое время, мы обязательно обработаем вызов и свяжемся с вами.
 		</div>
 
 		<div class="article contact">
 			<table>
 				<tr>
-					<th colspan="3"><h1 id="footer">Контакты</h1></th>
+					<th colspan="3"><h2 id="footer">Контакты</h2></th>
 				</tr>
 				<tr>
 					<td><img src="img/messange.png" alt="Корпоративный телефон"></td>
