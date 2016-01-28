@@ -72,7 +72,7 @@
 
 		<div class="marker">
 			<span id="polygraphy">Графический дизайн</span>
-			Буклеты, брошюры, календари и другая рекламная полиграфическая продукция
+			Визитки, буклеты, брошюры, календари и другая рекламная полиграфическая продукция.
 		</div>
 
 		<div class="article">
@@ -119,41 +119,6 @@
 			</table>	
 		</div>
 
-		<div class="article">
-			<h1>Брендбуки</h1>
-			<table class="services-list">
-				<tr>
-					<td><img src="img/current.png" height="80" width="80"></td>
-					<td><img src="img/graph.png" height="80" width="80"></td>
-				</tr>
-				<tr>
-					<th>Что мы делаем?</th>
-					<th>Сроки и цены</th>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>	
-		</div>
-
-		<div class="article">
-			<h1>Рекламные плакаты</h1>
-			<table class="services-list">
-				<tr>
-					<td><img src="img/current.png" height="80" width="80"></td>
-					<td><img src="img/graph.png" height="80" width="80"></td>
-				</tr>
-				<tr>
-					<th>Что мы делаем?</th>
-					<th>Сроки и цены</th>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>	
-		</div>
 <?
 	require_once($_SERVER['DOCUMENT_ROOT']."/include/footer.php");
 ?>
