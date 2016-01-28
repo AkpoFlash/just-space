@@ -5,7 +5,7 @@
 	<body>
 
 		<div class="blog-head">
-			<span>Бог компании Just Space</span>
+			<h1>Бог компании Just Space</h1>
 		</div>
 
 		<div class="blog-article">
