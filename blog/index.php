@@ -17,6 +17,7 @@
 			</div>
 			<a href="seo.php" class="more">Читать дальше &rarr;</a>
 		</div>
+
 <?
 	require_once($_SERVER['DOCUMENT_ROOT']."/include/footer.php");
 ?>
